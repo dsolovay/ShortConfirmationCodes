@@ -9,7 +9,7 @@ the box.
 
 ## Technical notes
 
-* As a precatution against codes being resused ("collisions"), the plugin creates tracking entities.
+* As a precatution against codes being reused ("collisions"), the plugin creates tracking entities.
 * The code checks for and creates tracking entities within a transaction, to ensure uniqueness.
 * If a unique code is not generated in the allowed number of tries (default 3), a 32 character guid is returned.
 * The default setting uses 26 characters, and a six character code, allowing for 308,915,776 possible codes.
